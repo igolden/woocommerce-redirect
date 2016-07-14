@@ -1,0 +1,44 @@
+{
+    "key": "group_5787c9ba533d1",
+    "title": "Woocommerce Redirect",
+    "fields": [
+        {
+            "key": "field_5787c9d9a5dfe",
+            "label": "Redirect URL",
+            "name": "redirect_url",
+            "type": "url",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "http:\/\/nuts.com",
+            "placeholder": "",
+            "show_column": 1,
+            "show_column_weight": 1,
+            "allow_quickedit": 1,
+            "allow_bulkedit": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1468520796
+}
